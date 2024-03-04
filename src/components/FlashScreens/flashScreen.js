@@ -7,6 +7,8 @@ import FlashScreenButton from '../UI/flashScreenButton';
 
 
 const FlashScreen = ({onNext}) => {
+  console.log('check')
+  console.log('adeed')
   return (
     <div className={classes.container}>
       <div className={classes['gradient-overlay']}></div>
