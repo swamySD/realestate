@@ -1,0 +1,16 @@
+.button{
+    width:180px;
+    height:40px;
+    background-color:#8BC83F;
+    border-radius: 8px;
+    position: absolute;
+    
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-width: 0px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}

@@ -1,0 +1,24 @@
+.input {
+    border: none;
+    background-color: transparent;
+    height: 50px;
+    width: 100%;
+    border-radius: 14px;
+    text-align: start;
+    padding-left: 45px; 
+    box-sizing: border-box;
+    appearance: none;
+  }
+  
+  .input:focus {
+    border-color: #252b5c;
+  }
+  .input[type=password]::-ms-reveal,
+  input[type=password]::-ms-clear
+  {
+      display: none;
+  }
+  
+  
+  
+  

@@ -1,0 +1,95 @@
+.image{
+    width:320px;
+    height: 150px;
+}
+@media screen and (min-width:321px) {
+    .image{
+        width: 100%;
+    }
+}
+@media screen and (min-width:375px) {
+    .image{
+        width: 100%;
+    }
+
+}
+.loginButtonContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 14px 0px;
+}
+.login{
+    background-color: #8BC83F;
+    width: 180px;
+    height:45px;
+    align-items: center;
+    border-radius: 8px;
+    border-width: 0px;
+    color: white;
+}
+.title{
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 16px;
+    font-family: 'sans-serif';
+}
+.description{
+    font-size: 14px;
+    color:gray;
+    padding-left: 16px;
+    font-family: 'sans-serif';
+}
+.text{
+    color:#1F4C6B;
+}
+.loginImage{
+    top:16px;
+    left:20px;
+    position: absolute;
+}
+.istyping{
+    top:16px;
+    left:85%;
+    position: absolute;
+    transition: left 0.3s ease-in-out;
+}
+.fogotTextCon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    justify-content: space-between;
+    width: 88%;
+    padding-left: 18px;
+    margin-top: 6px;
+}
+.forgotText{
+    color:#1F4C6B;
+    font-size: 10px;
+    
+}
+.login-button-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top:6px;
+}
+.login-button{
+ background-color: #c7c4cf;
+ height: 35px;
+ border-radius: 16px;
+ border-width: 0px;
+ width: 90px;
+ 
+}
+
+.registertag{
+    font-size: 14px;
+    color: #53587A;
+    padding-left: 16px;
+    text-align: center;
+    padding-top: 6px;
+}

@@ -1,0 +1,41 @@
+.heading{
+    color:black;
+    font-size: 20px;
+    font-weight: 400;
+}
+.description{
+    color:#53587A;
+    font-size: 12px;
+}
+.container{
+    margin-left: 20px;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+}
+
+@media screen and (max-width:320px){
+    .images{
+        width:280px !important;
+        
+    }
+}
+
+@media screen and (max-width:375px){
+    .images{
+        width:340px;
+        
+    }
+}
+@media screen and (min-width:376px){
+    .images{
+        width: 355px;
+    }
+}
+
+.images{
+    height: 330px !important;
+}
